@@ -68,7 +68,7 @@
       <link>http://localhost:1313/blog/2018/10/06/second-blog-post/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/2018/10/06/second-blog-post/</guid>
-      <description>这是 blog/news 下 的 Second blog post&#xA;second-post&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</description>
+      <description>这是 blog/news 下 的 Second blog post&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</description>
     </item>
     <item>
       <title>Easy documentation with Docsy</title>
@@ -82,7 +82,7 @@
       <link>http://localhost:1313/blog/2018/01/04/another-great-release/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/2018/01/04/another-great-release/</guid>
-      <description>这是 blog/releases 下 的 in-depth-monoliths&#xA;monolith [ˈmɒnəlɪθ] n. 整块石料；庞然大物&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</description>
+      <description>这是 blog/releases 下 的 in-depth-monoliths&#xA;monolith [ˈmɒnəlɪθ] n. 整块石料；庞然大物&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;Small images should be shown at their actual size. Large images should always scale down and fit in the content container. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</description>
     </item>
     <item>
       <title>Example Page</title>
