@@ -19711,12 +19711,13 @@ div.drawioframe {
     height: 5rem;
     visibility: hidden; } }
 
-/*
+.td-page-meta__view {
+  display: none; }
 
-Nothing defined here. The Hugo project that uses this theme can override Bootstrap by adding a file to:
+.td-page-meta__edit {
+  display: none; }
 
-assets/scss/_styles_project.scss
-
-*/
+.td-page-meta__child {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

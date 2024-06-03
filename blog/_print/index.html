@@ -322,6 +322,10 @@ This is the multi-page printable view of this section.
         
 	</div>
 	<p>这是 blog/news 下 的  Second blog post</p>
+<p>Small images should be shown at their actual size.
+<img alt="nature-001" src="https://img.guibinwei.com/nature-002.jpg"></p>
+<p>Large images should always scale down and fit in the content container.
+<img alt="nature-003" src="https://img.guibinwei.com/nature-004.jpg"></p>
 <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
 <p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
 <p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
@@ -546,10 +550,7 @@ bar := &#34;foo&#34;;
 </tbody>
 </table>
 <hr>
-<p>Small images should be shown at their actual size.</p>
-<p><img src="https://placekitten.com/g/300/200/"></p>
-<p>Large images should always scale down and fit in the content container.</p>
-<p><img src="https://placekitten.com/g/1200/800/"></p>
+<p>原来展示图片大小的代码错误。删除，修改并移到前面</p>
 <h2 id="components">Components<a class="td-heading-self-link" href="#components" aria-label="Heading self-link"></a></h2>
 <h3 id="alerts">Alerts<a class="td-heading-self-link" href="#alerts" aria-label="Heading self-link"></a></h3>
 <p>
@@ -743,12 +744,21 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 		<time datetime="2018-01-04" class="text-body-secondary">Thursday, January 04, 2018</time>
         
 	</div>
-	<p>这是 blog/releases 下 的 in-depth-monoliths</p>
+	<h2 id="页面起始">页面起始<a class="td-heading-self-link" href="#%e9%a1%b5%e9%9d%a2%e8%b5%b7%e5%a7%8b" aria-label="Heading self-link"></a></h2>
+<p>2024-06-03：感谢 hugo docsy 感谢obsidian。这回真正实现了 markdown的统一。一方面，可以在obsidian中边际md文档。一方面可以复制到hugo docsy文件夹，发送到本地 服务器 或者 远程服务器。
+为了谨慎起见 复制了一个文件夹 my-new-site-2
+基本上所有的 md语法都一致。慢慢地测试完善这个页面。
+大致有两个语法不一致：内部文档链接的命令。以及内部图片-本地图片的链接。删除测试 002.jpg
+当然使用图床没有问题。看了 natrue 前面4个图片，体积都在100k以下。还可以</p>
+<p>测试 同步逻辑。此时  在  obsidian中打开 md页面。同时 在 vscode 中打开页面，并且 启动服务器</p>
+<p>奇怪，刚开始 几个字 传输到 vscode中。但是后面的文字 似乎没有传输过去</p>
+<p>算了为了防止 冲突，没有在 vscode 中关闭 md文档。只是打开 server。此时 obsidian的改动可以同步到 localhost中
+需要在 chrome中刷新一下</p>
+<p>这是 blog/releases 下 的 in-depth-monoliths</p>
 <p>monolith [ˈmɒnəlɪθ] n. 整块石料；庞然大物</p>
 <p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
 <p>Small images should be shown at their actual size.
 <img alt="nature-001" src="https://img.guibinwei.com/nature-001.jpg"></p>
-<p><img alt="nature-002" src="/images/nature-002.jpg"></p>
 <p>Large images should always scale down and fit in the content container.
 <img alt="nature-003" src="https://img.guibinwei.com/nature-003.jpg"></p>
 <p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</p>
