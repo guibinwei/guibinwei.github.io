@@ -19712,12 +19712,12 @@ div.drawioframe {
     visibility: hidden; } }
 
 .td-page-meta__view {
-  display: none; }
+  display: none  !important; }
 
 .td-page-meta__edit {
-  display: none; }
+  display: none  !important; }
 
 .td-page-meta__child {
-  display: none; }
+  display: none  !important; }
 
 /*# sourceMappingURL=main.css.map */
