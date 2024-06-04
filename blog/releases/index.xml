@@ -9,10 +9,10 @@
     <atom:link href="http://localhost:1313/blog/releases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Another Great Release</title>
-      <link>http://localhost:1313/blog/2018/01/04/another-great-release/</link>
+      <link>http://localhost:1313/blog/another-great-release/</link>
       <pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2018/01/04/another-great-release/</guid>
-      <description>页面起始&#xD;2024-06-03：感谢 hugo docsy 感谢obsidian。这回真正实现了 markdown的统一。一方面，可以在obsidian中边际md文档。一方面可以复制到hugo docsy文件夹，发送到本地 服务器 或者 远程服务器。 为了谨慎起见 复制了一个文件夹 my-new-site-2 基本上所有的 md语法都一致。慢慢地测试完善这个页面。 大致有两个语法不一致：内部文档链接的命令。以及内部图片-本地图片的链接。删除测试 002.jpg 当然使用图床没有问题。看了 natrue 前面4个图片，体积都在100k以下。还可以&#xA;测试 同步逻辑。此时 在 obsidian中打开 md页面。同时 在 vscode 中打开页面，并且 启动服务器&#xA;奇怪，刚开始 几个字 传输到 vscode中。但是后面的文字 似乎没有传输过去&#xA;算了为了防止 冲突，没有在 vscode 中关闭 md文档。只是打开 server。此时 obsidian的改动可以同步到 localhost中 需要在 chrome中刷新一下&#xA;这是 blog/releases 下 的 in-depth-monoliths&#xA;monolith [ˈmɒnəlɪθ] n. 整块石料；庞然大物&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).</description>
+      <guid>http://localhost:1313/blog/another-great-release/</guid>
+      <description>页面起始&#xD;这是 blog/releases 下 的 in-depth-monoliths&#xA;monolith [ˈmɒnəlɪθ] n. 整块石料；庞然大物&#xA;Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;Small images should be shown at their actual size. Large images should always scale down and fit in the content container. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.</description>
     </item>
   </channel>
 </rss>

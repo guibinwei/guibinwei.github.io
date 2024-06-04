@@ -8,24 +8,45 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/blog/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Post5</title>
+      <link>http://localhost:1313/blog/post5/</link>
+      <pubDate>Tue, 04 Jun 2024 10:35:02 +0800</pubDate>
+      <guid>http://localhost:1313/blog/post5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post4</title>
+      <link>http://localhost:1313/blog/post4/</link>
+      <pubDate>Tue, 04 Jun 2024 10:34:49 +0800</pubDate>
+      <guid>http://localhost:1313/blog/post4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Post3</title>
+      <link>http://localhost:1313/blog/post3/</link>
+      <pubDate>Mon, 03 Jun 2024 19:48:53 +0800</pubDate>
+      <guid>http://localhost:1313/blog/post3/</guid>
+      <description>初步使用&#xD;2024-06-03：感谢 hugo-docsy 感谢obsidian。这回真正实现了 markdown的统一。一方面，可以在obsidian中边际md文档。一方面可以复制到hugo docsy文件夹，发送到本地 服务器 或者 远程服务器。&#xA;为了谨慎起见 复制了一个文件夹 my-new-site-2&#xA;基本上所有的 md语法都一致。慢慢地测试完善这个页面。 大致有两个语法不一致： 1、内部文档链接的命令 2、内部图片-本地图片的链接。 # 删除测试的本地图片 002.jpg&#xA;使用图床没有问题。看了 natrue 前面4个图片，体积都在100k以下。还可以 测试 同步逻辑。此时 在 obsidian中打开 md页面。同时 在 vscode 中打开页面，并且 启动服务器&#xA;奇怪，刚开始 几个字 传输到 vscode中。但是后面的文字 似乎没有传输过去&#xA;算了为了防止 冲突，没有在 vscode 中关闭 md文档。只是打开 server。此时 obsidian的改动可以同步到 localhost中 需要在 chrome中刷新一下&#xA;原来的阐述 在 releases 中 的 in-depth 文档中，为了 简化页面，乃在vscode中 新建 post3文档，将自己 新建的内容 放到这里。&#xA;进一步感受合作的力量&#xD;进一步 感受到 obsidian 和 hugo-docsy 的合作力量。在hugo-docsy 框架中，有 网站的布局，以及各种类型 页面的布局，主要是 博客blog 和 文档 docs。比如上述 .</description>
+    </item>
+    <item>
       <title>Post2</title>
-      <link>http://localhost:1313/blog/2024/06/03/post2/</link>
+      <link>http://localhost:1313/blog/post2/</link>
       <pubDate>Mon, 03 Jun 2024 14:51:04 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2024/06/03/post2/</guid>
-      <description>这是 blog/news 下 的 自建演示文档&#xA;详细内容 参见 second-post&#xA;This is a typical blog post that includes images.&#xA;The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&#xA;Including images&#xD;Here&amp;rsquo;s an image (featured-sunset-get.png) that includes a byline and a caption.&#xA;The front matter of this post specifies properties to be assigned to all image resources:</description>
+      <guid>http://localhost:1313/blog/post2/</guid>
+      <description>这是 blog/news 下 的 自建演示文档 post2&#xA;详细内容 参见 second-post&#xA;另一个部分内容 参见 post3&#xA;This is a typical blog post that includes images.&#xA;The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&#xA;Including images&#xD;Here&amp;rsquo;s an image (featured-sunset-get.png) that includes a byline and a caption.&#xA;The front matter of this post specifies properties to be assigned to all image resources:</description>
     </item>
     <item>
       <title>Second blog post</title>
-      <link>http://localhost:1313/blog/2018/10/06/second-blog-post/</link>
+      <link>http://localhost:1313/blog/second-blog-post/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2018/10/06/second-blog-post/</guid>
+      <guid>http://localhost:1313/blog/second-blog-post/</guid>
       <description>这是 blog/news 下 的 Second blog post&#xA;Small images should be shown at their actual size. Large images should always scale down and fit in the content container. Text can be bold, italic, or strikethrough. Links should be blue with no underlines (unless hovered over).&#xA;There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.&#xA;There should be whitespace between paragraphs.</description>
     </item>
     <item>
       <title>Easy documentation with Docsy</title>
-      <link>http://localhost:1313/blog/2018/10/05/easy-documentation-with-docsy/</link>
+      <link>http://localhost:1313/blog/easy-documentation-with-docsy/</link>
       <pubDate>Fri, 05 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2018/10/05/easy-documentation-with-docsy/</guid>
+      <guid>http://localhost:1313/blog/easy-documentation-with-docsy/</guid>
       <description>这是 blog/news/first-post 下的 index.md&#xA;This is a typical blog post that includes images.&#xA;The front matter specifies the date of the blog post, its title, a short description that will be displayed on the blog landing page, and its author.&#xA;Including images&#xD;Here&amp;rsquo;s an image (featured-sunset-get.png) that includes a byline and a caption.&#xA;Fetch and scale an image in the upcoming Hugo 0.43. Photo: Riona MacNamara / CC-BY-CA The front matter of this post specifies properties to be assigned to all image resources:</description>
     </item>
   </channel>

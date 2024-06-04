@@ -91,26 +91,35 @@
                 href="http://localhost:1313/blog/releases/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/2024/06/03/post2/</loc>
+    <loc>http://localhost:1313/blog/post5/</loc>
+    <lastmod>2024-06-04T10:35:02+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post4/</loc>
+    <lastmod>2024-06-04T10:34:49+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post3/</loc>
+    <lastmod>2024-06-03T19:48:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post2/</loc>
     <lastmod>2024-06-03T14:51:04+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/2018/10/06/second-blog-post/</loc>
+    <loc>http://localhost:1313/blog/second-blog-post/</loc>
     <lastmod>2024-05-02T07:16:31-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/2018/10/05/easy-documentation-with-docsy/</loc>
+    <loc>http://localhost:1313/blog/easy-documentation-with-docsy/</loc>
     <lastmod>2024-05-02T07:16:31-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fa"
-                href="http://localhost:1313/fa/blog/2018/10/06/%D9%85%D8%B3%D8%AA%D8%AF%D8%A7%D8%AA-%D8%B1%D8%A7%D8%AD%D8%AA-%D8%A8%D8%A7-%D8%AF%D8%A7%DA%A9%D8%B3%DB%8C/"
+                href="http://localhost:1313/fa/blog/%D9%85%D8%B3%D8%AA%D8%AF%D8%A7%D8%AA-%D8%B1%D8%A7%D8%AD%D8%AA-%D8%A8%D8%A7-%D8%AF%D8%A7%DA%A9%D8%B3%DB%8C/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog/2018/10/05/easy-documentation-with-docsy/"
+                href="http://localhost:1313/blog/easy-documentation-with-docsy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/2018/01/04/another-great-release/</loc>
+    <loc>http://localhost:1313/blog/another-great-release/</loc>
     <lastmod>2024-05-02T07:16:31-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

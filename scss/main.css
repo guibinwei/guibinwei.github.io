@@ -19720,4 +19720,10 @@ div.drawioframe {
 .td-page-meta__child {
   display: none  !important; }
 
+.td-page-meta__issue {
+  display: none  !important; }
+
+.td-page-meta__project-issue {
+  display: none  !important; }
+
 /*# sourceMappingURL=main.css.map */
