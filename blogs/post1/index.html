@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="/libs/katex/katex.min.css">
+     
+   <link rel="stylesheet" href="/libs/highlight/styles/github.min.css">
+   
+  <link rel="stylesheet" href="/css/franklin.css">
+  <link rel="stylesheet" href="/css/basic.css">
+  <link rel="icon" href="/assets/favicon.png">
+   <title>Population Genetics-12-17-Julia</title>  
+</head>
+<body>
+  <header>
+<div class="blog-name"><a href="/">Basic Template</a></div>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/menu1/">Code blocks</a></li>
+    <li><a href="/menu2/">More goodies</a></li>
+    <li><a href="/menu3/">Tags</a></li>
+  </ul>
+  <img src="/assets/hamburger.svg" id="menu-icon">
+</nav>
+</header>
+
+
+<!-- Content appended here -->
+<div class="franklin-content">
+<h1 id="population_genetics-12-17-julia"><a href="#population_genetics-12-17-julia" class="header-anchor">Population Genetics-12-17-Julia</a></h1>
+<p>2024-06-10</p>
+<p><a href="/blogs/post2">第二个博客</a></p>
+<p>测试一下1234。测试是否变动。修改博客标题</p>
+<p>random mating. Thus no variation will usually exist upon which selection can act. Since, of course, we do not observe this uniformity of characteristics, further argument is required; but since variation from the expected &#39;mixture&#39; can occur only by an additional factor which causes offspring not to resemble parents, and since to prevent rapid degeneration to uniformity this factor must have a very strong effect, it cannot reasonably be argued that selectively favoured parents produce offspring which closely resemble their parents and hence are themselves selectively favoured.</p>
+<p>It is interesting to note that the consequences of the blending theory of inheritance were recognized by Darwin as a major obstacle to his theory of evolution through selection; it is the &#39;quantal&#39; nature of Mendelian inheritance which completely removes this problem. This is all the more remarkable because it was often thought, in the decade following the rediscovery of Mendelian, that Darwinism and Mendelism were incompatible; results such as the Hardy-Weinberg theorem, and others considered later in this book, show that on the contrary the former practically depends on the latter for its operation.</p>
+<h1 id="12_random_union_of_gametes"><a href="#12_random_union_of_gametes" class="header-anchor">1.2. Random union of gametes </a></h1>
+<p>The Hardy-Weinberg law was derived above under a number of simplifying assumptions, and in order to derive analogous laws under less restrictive assumptions, and to facilitate the mathematical arguments in general, we will now rederive the law in a more efficient way.</p>
+<p>Any \(A_{1} A_{1}\) parent will transmit an \(A_{1}\) gene to his offspring. Any such gene is called, at this stage, a gamete; the union of two gametes forms a zygote or individual. Now the population considered in Section 1.1 produces \(A_{1}\) gametes with frequency \(P+Q\) and \(A_{2}\) gametes with frequency \(Q+R\); furthermore, random mating of individuals is equivalent to random union of gametes. Thus the frequency of \(A_{1} A_{1}\) in the following generation is the frequency with which two gametes drawn independently are both \(A_{1}\), namely \((P+Q)^{2}\). This establishes eqn. &#40;1.1&#41; and eqns. &#40;1.2&#41; and &#40;1.3&#41; follow similarly. The derivation of genotypic frequencies from the argument of random union of gametes will be used subsequently on a number of occasions.</p>
+<h3 id="13_dioecious_populations"><a href="#13_dioecious_populations" class="header-anchor">1.3. Dioecious populations</a></h3>
+<p>We assumed in Section 1.1 that individuals are monoecious. While this assumption is of some independent interest, it was made mainly for convenience; to find how relevant the results derived from it are for other situations, some consideration must be given to populations where individuals are dioecious.</p>
+<p>Suppose that the frequencies of \(A_{1} A_{1}, A_{1} A_{2}\) and \(A_{2} A_{2}\) among males are \(P_{M}, 2 Q_{M}\) and \(R_{M}\) and among females are \(P_{F}, 2 Q_{F}\) and \(R_{F}\). The gametic outputs from the two sexes are then \(P_{M}+Q_{M}\left(\right.\) of \(\left.A_{1}\right)\) and \(Q_{M}+R_{M}\) &#40;of \(A_{2}\) &#41; from males and \(P_{F}+Q_{F}\) &#40;of \(A_{1}\) &#41; and \(Q_{F}+R_{F}\) &#40;of \(A_{2}\) &#41; from females. The frequencies of the three genotypes &#40;in both sexes&#41; in the following generation are therefore \(\left(P_{M}+Q_{M}\right)\left(P_{F}+Q_{F}\right)\), \(\left(P_{M}+Q_{M}\right)\left(Q_{F}+R_{F}\right)+\left(P_{F}+Q_{F}\right)\left(Q_{M}+R_{M}\right),\left(Q_{M}+R_{M}\right)\left(Q_{F}+R_{F}\right)\) respectively. The gametic output from this daughter generation is, for both sexes, \(\frac{1}{2}\left(P_{M}+P_{F}+Q_{M}+Q_{F}\right)\) &#40;of \(\left.A_{1}\right)\) and \(\frac{1}{2}\left(Q_{M}+Q_{F}+R_{M}\right.\) \(\left.+R_{F}\right)\left(\right.\) of \(\left.A_{2}\right)\). It is easy to show also that the genotypic frequencies in this following generation satisfy eqn. &#40;1.5&#41; for both sexes. Thus after one generation of random mating, the frequencies of the three genotypes are the same in both males and females, while a further generation of random mating ensures that these frequencies are in Hardy. Weinberg form.</p>
+<p>Thus it is reasonable in many circumstances to ignore the dioecious nature of the population, and we shall indeed almost always do this, mentioning it only on occasions when special attention is necessary.</p>
+<h3 id="14_sex-linked_genes_and_multiple_alleles"><a href="#14_sex-linked_genes_and_multiple_alleles" class="header-anchor">1.4. Sex-linked genes and multiple alleles</a></h3>
+<p>The theory of the preceding section does not apply when the genes in question are sex-linked, i.e. located on the sex chromosome. To analyse the behaviour for sex-linked genes, suppose that the male sex is heterogametic and that the initial frequencies are</p>
+<table><tr><th align="center">male</th><th align="center"></th><th align="center">female</th><th align="center"></th><th align="center"></th></tr><tr><td align="center">\(A_{1}\)</td><td align="center">\(A_{2}\)</td><td align="center">\(A_{1} A_{1}\)</td><td align="center">\(A_{1} A_{2}\)</td><td align="center">\(A_{2} A_{2}\)</td></tr><tr><td align="center">\(p_{M}\)</td><td align="center">\(q_{M}\)</td><td align="center">\(P_{F}\)</td><td align="center">\(2 Q_{F}\)</td><td align="center">\(R_{F}\)</td></tr></table>
+<p>Consideration of the gametic output from each sex shows that in the following generation these frequencies become</p>
+<p>male</p>
+\[
+\begin{array}{cc}
+A_{1} & A_{2} \\
+P_{F}+Q_{F} & Q_{F}+R_{F}
+\end{array}
+\]
+<p>female</p>
+\[
+\begin{array}{ccc}
+A_1 A_1 & A_1 A_2 & A_2 A_2 \\
+p_M\left(P_F+Q_F\right) & q_M\left(P_F+Q_F\right)+p_M\left(Q_F+R_F\right) & q_M\left(Q_F+R_F\right)
+\end{array}
+\]
+<p>The difference between the frequency of \(A_{1}\) in males and the frequency of \(A_{1}\) in females in the initial generation is</p>
+\[
+\begin{equation*}
+p_{M}-\left(P_{F}+Q_{F}\right) \tag{1.6}
+\end{equation*}
+\]
+<p>while in the second generation this difference is</p>
+\[
+\begin{align*}
+P_{F}+Q_{F} & -\left\{p_{M}\left(P_{F}+Q_{F}\right)+\frac{1}{2} q_{M}\left(P_{F}+Q_{F}\right)+\frac{1}{2} p_{M}\left(Q_{F}+R_{F}\right)\right\} \\
+& =-\frac{1}{2}\left\{p_{M}-\left(P_{F}+Q_{F}\right)\right\} \tag{1.7}
+\end{align*}
+\]
+<p>which in absolute value is half of &#40;1.6&#41;. Clearly, with succeeding generations, this difference rapidly approaches zero. If, then, it is assumed that initially \(p_{M}=P_{F}+Q_{F}=p\) &#40;say&#41;, the above theory shows that in one generation the frequencies</p>
+<table><tr><th align="center">male</th><th align="center"></th><th align="center">female</th><th align="center"></th><th align="center"></th></tr><tr><td align="center">\(A_1\)</td><td align="center">\(A_2\)</td><td align="center">\(A_1 A_1\)</td><td align="center">\(A_1 A_2\)</td><td align="center">\(A_2 A_2\)</td></tr><tr><td align="center">\(p\)</td><td align="center">\(q\)</td><td align="center">\(p^2\)</td><td align="center">\(2 p q\)</td><td align="center">\(q^2\)</td></tr></table>
+<p>are attained, and that these frequencies are unaltered in subsequent generations. For arbitrary initial values of \(P_{F}\) and \(Q_{F}\), this does not happen, although a very rapid convergence to such an equilibrium state occurs. In any event, the important part of the Hardy-Weinberg law relating to essential stability of genotypic frequencies still stands.</p>
+<p>The Hardy-Weinberg law can be extended immediately to the case where more than two types of genes are allowed at the locus in question. If alleles \(A_{1}, \ldots, A_{k}\) occurs with frequencies \(p_{1}, \ldots, p_{k}\), then after one generation of random mating the frequency of \(A_{i} A_{i}\) is \(p_{i}{ }^{2}\), while that of \(A_{i} A_{j}(i \neq j)\) is \(2 p_{i} p_{j}\); in subsequent generations these frequencies are unaltered. The proofs of these statements follow immediately by considering gamete frequencies, and are omitted; again it is clear that genotypic frequencies are essentially stable.</p>
+<h3 id="15_miscellaneous_results"><a href="#15_miscellaneous_results" class="header-anchor">1.5. Miscellaneous results</a></h3>
+<p>In this section some elementary considerations derived from the Hardy-Weinberg law will be examined.</p>
+<p>In a number of cases, the gene \(A_{1}\) is dominant to \(A_{2}\); that is, \(A_{1} A_{1}\) individuals are indistinguishable from \(A_{1} A_{2}\). A common fallacy in such a situation is to suppose that such dominance &#39;spreads&#39; and that eventually all individuals will be indistinguishable. Such is not the case, for the stable frequencies derived in Section 1.1 apply irrespective of the existence of dominance; what is gained in the frequency of dominant individuals by mating of \(A_{1} A_{1}\) with \(A_{2} A_{2}\) and of \(A_{1} A_{2}\) with \(A_{2} A_{2}\) is exactly counterbalanced by the loss in frequency through matings of \(A_{1} A_{2}\) with \(A_{1} A_{2}\) and of \(A_{1} A_{2}\) with \(A_{2} A_{2}\).</p>
+<p>A second consequence of the Hardy-Weinberg law is that if \(A_{2}\) is recessive to \(A_{1}\) and has small frequency, we shall rarely observe recessive individuals. Further, the parents of recessives will usually both be heterozygotes. For example, if the frequency \(q\) of \(A_{2}\) is 0.001 , then the frequency of \(A_{2} A_{2}\) is 0.000001 . The frequency with which an \(A_{2} A_{2}\) individual has both parents \(A_{1} A_{2}\) may be found from the fact that the parents of an \(A_{2}\) individual must both be \(-A_{2}\), where the unknown gene is either \(A_{1}\) or \(A_{2}\). The frequency with which both unknown genes are \(A_{1}\) is \((0.999)^{2}=0.998001\). This indicates that the attempted removal of a rare recessive gene by removal of recessives \(A_{2} A_{2}\) will have but a minor effect; later on the rate at which such removal will decrease the frequency of \(A_{2}\) will be considered.</p>
+<p>Finally, we remark that the Hardy-Weinberg law has been derived here under the assumption that generations do not overlap. Thus if this assumption does not hold, the law itself may not hold. For example, suppose as a continuous time analogue to the above that in a small time \(d t\) a fraction \(d t\) of the population dies and is replaced, by random sampling, from the population at large. Under this system the frequency \(p\) of \(A_{1}\) does not change with time, but if \(P(t)\) is the frequency \(A_{1} A_{1}\) at time \(t\), then</p>
+\[
+P(t+d t)=P(t)(1-d t)+p^{2} d t .
+\]
+<p>Passing to the limit in this equation,</p>
+\[
+\frac{d P(t)}{d t}=-P(t)+p^{2}
+\]
+<p>so that</p>
+\[
+P(t)=\left\{P(0)-p^{2}\right\} \exp (-t)+p^{2}
+\]
+<p>Clearly a population initially in Hardy-Weinberg equilibrium will remain in equilibrium, but for non-equilibrium populations, the equilibrium state is approached asymptotically &#40;and rapidly&#41;. It is clear that the important conclusions derived from the Hardy-Weinberg law remain unchanged. For a more complete discussion of this and similar problems, see Moran &#40;1962, p. 23&#41;.</p>
+<h3 id="16_the_effect_of_selection"><a href="#16_the_effect_of_selection" class="header-anchor">1.6. The effect of selection</a></h3>
+<p>The results given above have been derived under the assumption that no selective differences exist between the three genotypes \(A_{1} A_{1}\), \(A_{1} A_{2}\) and \(A_{2} A_{2}\). In attempting to discuss the effect of selection one immediately comes up against the problem that selective values are not properties of genes; they are rather properties of individuals &#40;i.e. of the whole interacting collection of genes which an individual has&#41;, and then refer properly only to a given environment. Thusit may, and often does, happen that a gene which is selectively advantageous against one genetic background is disadvantageous against another. It will be shown later that such interaction effects can have major evolutionary consequences, and that it appears difficult even to define a concept of &#39;independence&#39; of loci. For the moment, we make the rough approximation that selective differences depend on the genotype at a given single locus; despite the above remarks, this approximation leads to a number of valuable results.</p>
+<p>To be definite, suppose that if, at the time of conception of any generation, the frequencies of the genotypes are \(P, 2 Q, R\), then these genotypes contribute gametes to form the individuals of the following generation in the proportions \(w_{11} P: 2 w_{12} Q: w_{22} R\). &#40;Note that the population is being considered at the time of formation of zygotes from the gametes of the previous generation. When selective differences exist, this is the only time when Hardy-Weinberg proportions strictly apply; later on, when considering finite populations, the population will be counted at the age of sexual maturity.&#41; The differential reproduction rates may be due to several causes, including in particular different survival rates and different offspring distributions. The quantities \(w_{11}, w_{12}\), and \(w_{22}\) will be called the &#39;fitnesses&#39; of the three genotypes, and when these are not all equal, selective forces are operating and genotypic frequencies will usually change from one generation to the next. With the fitnesses given above, the frequencies of the various genotypes in the following generation now satisfy the equation \(P^{\prime}: 2 Q^{\prime}: R^{\prime}\)</p>
+\[
+\begin{align*}
+& =\left(w_{11} P+w_{12} Q\right)^{2}: 2\left(w_{11} P+w_{12} Q\right)\left(w_{12} Q+w_{22} R\right):\left(w_{12} Q+w_{22} R\right)^{2} \\
+& =\left(p^{\prime}\right)^{2}: 2 p^{\prime} q^{\prime}:\left(q^{\prime}\right)^{2} \tag{1.8}
+\end{align*}
+\]
+<p>where</p>
+\[
+\begin{equation*}
+p^{\prime}=\left(w_{11} P+w_{12} Q\right) /\left(w_{11} P+2 w_{12} Q+w_{22} R\right) \tag{1.9}
+\end{equation*}
+\]
+<p>Clearly, after one generation of random mating, Hardy-Weinberg proportions are achieved. In the next generation, the same arguments show that</p>
+\[
+\begin{align*}
+P^{\prime \prime}: 2 Q^{\prime \prime}: R^{\prime \prime} & =\left(p^{\prime \prime}\right)^{2}: 2 p^{\prime \prime} q^{\prime \prime}:\left(q^{\prime \prime}\right)^{2} \\
+& =\left\{w_{11}\left(p^{\prime}\right)^{2}+w_{12} p^{\prime} q^{\prime}\right)^{2}: 2\left\{w_{11}\left(p^{\prime}\right)^{2}+w_{12} p^{\prime} q^{\prime}\right\} \\
+& \times\left\{w_{12} p^{\prime} q^{\prime}+w_{22}\left(q^{\prime}\right)^{2}\right\}:\left\{w_{12} p^{\prime} q^{\prime}+w_{22}\left(q^{\prime}\right)^{2}\right\}^{2} \tag{1.10}
+\end{align*}
+\]
+<p>It follows that the equation \(p^{\prime \prime}=p^{\prime}\) no longer holds in general. Thus while genotype frequencies settle down immediately to HardyWeinberg form, the more important part of the Hardy-Weinberg theorem relating to constancy of genotypic frequencies no longer holds. We shall examine some consequences of this conclusion in the next chapter.</p>
+<div class="page-foot">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Septimia Zenobia. Last modified: August 28, 2024.
+    Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>.
+</div>
+</div><!-- CONTENT ENDS HERE -->
+    
+        <script src="/libs/katex/katex.min.js"></script>
+<script src="/libs/katex/contrib/auto-render.min.js"></script>
+<script>renderMathInElement(document.body)</script>
+
+    
+    
+        <script src="/libs/highlight/highlight.min.js"></script>
+<script>hljs.highlightAll();hljs.configure({tabReplace: '    '});</script>
+
+    
+  </body>
+</html>
